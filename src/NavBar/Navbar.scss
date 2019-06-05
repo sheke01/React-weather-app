@@ -1,0 +1,30 @@
+.nav-bar {
+  background: #549ee4;
+  padding: 0.5rem 1rem;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.nav-links {
+  align-self: center;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #800000;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s linear;
+  &:hover {
+    color: #000080;
+  }
+}
+
+.active {
+  color: #000080;
+}
